@@ -46,3 +46,20 @@ grouped = facebook_complaints.groupby(['type']).agg({'processed':'sum','complain
 grouped['processed_rate'] =grouped['processed']/grouped['complaint_id']
 result = grouped[['type','processed_rate']]
 ```
+
+5. Replace Multiple Values with a val in df, using apply and lambda
+```
+# Define a replacement function
+def replace_values(x):
+    return {
+        1: 10,
+        2: 20,
+        3: 30
+    }.get(x, x)  # Return x if it is not in the replacement dictionary
+
+# Apply the replacement function to the entire DataFrame
+df_replaced = df.applymap(replace_values)
+
+print(df_replaced)
+
+```
