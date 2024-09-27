@@ -63,3 +63,5 @@ df_replaced = df.applymap(replace_values)
 print(df_replaced)
 
 ```
+
+6. pd.factorize()
