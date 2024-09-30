@@ -65,3 +65,5 @@ print(df_replaced)
 ```
 
 6. pd.factorize()
+
+7. 0 > np.nan (less or greater is always False)
