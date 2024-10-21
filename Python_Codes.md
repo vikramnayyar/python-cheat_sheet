@@ -67,3 +67,5 @@ print(df_replaced)
 6. pd.factorize()
 
 7. 0 > np.nan (less or greater is always False)
+
+8. I have classes 1 to 3 in a df ---> return class that has all students with marks less than 70. how to do this with Pandas
