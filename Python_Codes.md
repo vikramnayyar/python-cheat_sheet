@@ -71,4 +71,12 @@ print(df_replaced)
 8. I have classes 1 to 3 in a df ---> return class that has all students with marks less than 70. how to do this with Pandas
 
 9. A df has columns student, physics, maths cols
-filter df for student with highest marks in physics and lowest marks in maths (2nd priority) 
+filter df for student with highest marks in physics and lowest marks in maths (2nd priority)
+
+10. count the number of marks cols that have non-zero marks in a row and add in a col
+
+11. I have 100+ cols
+of them Name Roll_No Class have to be cols 1, 2, 3. how to do this?
+
+12. print name of students that have 0 marks in all rows. There are multiple marks cols, check only in marks1 cols
+
