@@ -84,3 +84,5 @@ of them Name Roll_No Class have to be cols 1, 2, 3. how to do this?
    for i, r in non_nans_count.iterrows(): 
     r[0] = df.shape[0] - r[0]
 
+14. df.loc[ -13:, : ].shape ---> tell ans
+
