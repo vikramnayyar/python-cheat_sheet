@@ -80,3 +80,7 @@ of them Name Roll_No Class have to be cols 1, 2, 3. how to do this?
 
 12. print name of students that have 0 marks in all rows. There are multiple marks cols, check only in marks1 cols
 
+13. why is this not removing updating values in df
+   for i, r in non_nans_count.iterrows(): 
+    r[0] = df.shape[0] - r[0]
+
