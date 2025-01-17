@@ -86,3 +86,5 @@ of them Name Roll_No Class have to be cols 1, 2, 3. how to do this?
 
 14. df.loc[ -13:, : ].shape ---> tell ans
 
+15. Passing args with .apply() 
+
